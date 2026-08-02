@@ -31,12 +31,13 @@
           <span class="brand-name">PiSTG</span>
         </a>
 
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#dashboard">Dashboard</a></li>
-          <li><a href="#creators">Creators</a></li>
-          <li><a href="#project">Project</a></li>
-        </ul>
+<!-- NAV (modified: "Creators" -> "Creator") -->
+<ul class="nav-links" id="navLinks">
+  <li><a href="#features">Features</a></li>
+  <li><a href="#dashboard">Dashboard</a></li>
+  <li><a href="#creators">Creator</a></li>
+  <li><a href="#project">Project</a></li>
+</ul>
 
         <a
           href="https://github.com/stghecker/raspberry-pi-interface-server"
@@ -233,37 +234,50 @@
         </div>
       </section>
 
-      <!-- ============ CREATORS ============ -->
-      <section id="creators" class="section" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
-        <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%;">
-          <div class="section-head reveal" style="text-align: center; margin-bottom: 2.5rem;">
-            <p class="eyebrow" style="text-align: center; width: 100%;">THE CREATOR</p>
-            <h2 class="section-title" style="text-align: center; width: 100%;">Meet the creator</h2>
-            <p class="section-desc" style="text-align: center; margin: 0 auto;">The sole creator behind PiSTG.</p>
-          </div>
-          
-          <div class="creators-grid" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 2rem; width: 100%; max-width: 1200px; margin: 0 auto;">
-            <div class="creator-card reveal" style="max-width: 340px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
-              <div class="avatar-wrapper" style="position: relative; margin-bottom: 1rem; border-radius: 50%; padding: 3px; background: linear-gradient(135deg, #00f2fe, #4facfe);">
-                <img src="https://githubusercontent.com" alt="@creator@" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; display: block;" />
-              </div>
-              <h3 style="margin: 0.5rem 0; font-size: 1.5rem;">@creator@</h3>
-              <p style="font-size: 0.95rem; color: #00f2fe; font-weight: 500; margin-bottom: 0.75rem;">Founder & Lead Developer</p>
-              <p style="font-size: 0.9rem; color: #a0aec0; line-height: 1.6; margin-bottom: 0.5rem;">
-                Creator of PiSTG and the Raspberry Pi Interface Server. Responsible for the architecture, development, design, and maintenance of the project.
-              </p>
-              <p style="font-size: 0.85rem; color: #718096; font-style: italic; margin-top: 0.5rem;">No other creators.</p>
-            </div>
-            
-            <div class="contribute-callout reveal" style="margin: 1.5rem auto 0 auto;">
-              <a href="https://github.com" target="_blank" rel="noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.75rem; text-decoration: none; font-weight: 600;">
-                Contribute to that project now!
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+<!-- ============ CREATOR ============ -->
+<section id="creators" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Meet the creator</p>
+      <h2 class="section-title">Creator</h2>
+      <p class="section-desc">PiSTG is maintained and primarily developed by a single creator.</p>
+    </div>
+
+    <div class="creator-card reveal" style="display:flex;align-items:center;gap:1rem;">
+      <img
+        src="https://avatars.githubusercontent.com/u/260478049?v=4"
+        alt="stghecker avatar"
+        class="creator-avatar"
+        style="width:96px;height:96px;border-radius:12px;object-fit:cover;"
+      />
+      <div class="creator-info">
+        <h3 style="margin:0;">
+          <a href="https://github.com/stghecker" target="_blank" rel="noreferrer">stghecker</a>
+        </h3>
+        <p style="margin:.25rem 0 .5rem 0;color:var(--muted);">Owner & maintainer</p>
+        <a
+          href="https://github.com/stghecker/raspberry-pi-interface-server"
+          target="_blank"
+          rel="noreferrer"
+          class="btn btn-primary"
+        >
+          View project
+        </a>
+      </div>
+    </div>
+
+    <p style="margin-top:1rem;color:var(--muted);">
+      No other creators.
+      <a
+        href="https://github.com/stghecker/raspberry-pi-interface-server"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Contribute (if u tap it u redirect to stghecker/raspberry-pi-interface-server) to that project now!
+      </a>
+    </p>
+  </div>
+</section>
 
 
 
